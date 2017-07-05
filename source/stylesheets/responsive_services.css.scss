@@ -1,0 +1,160 @@
+@media (min-width: 800px) and (max-width: 1195px) {
+}
+
+@media (min-width: 641px){
+  #sect-1, #sect-2, #sect-3{
+    height: 100vh;
+  }
+
+  .dissapear-responsive{
+    display: none;
+    max-width: 50%;
+  }
+  .box-inbound{
+    margin-top: 29vh !important;
+    position: relative;
+    left:10px;
+  }
+
+}
+
+@media (max-width: 640px){
+  .box-inbound{
+    position: relative;
+    left:10px;
+  }
+
+  #sect-1, #sect-2{
+    height: 100vh;
+  }
+
+  #sect-3{
+    height: 130vh;
+  }
+
+  .brand-dev-responsive{
+    height: 160vh !important;
+  }
+
+  .web-design-resp, .inbound-marketing{
+    height: 180vh !important;
+  }
+
+  .tech-solutions-responsive{
+    height: 190vh !important;
+  }
+
+  .tech-solutions-block{
+    bottom: 30px !important;
+  }
+
+
+  #sect-4 #sect-4-1 #pycho-quote {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 100%;
+    color: #FFFFFF;
+    opacity: 1.00;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .text-article .title-1 {
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: 0.2px;
+    color: #EB7C57;
+    margin: 0px;
+    text-align: center;
+  }
+  .text-article h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 90%;
+    color: #333333;
+    text-align: center;
+  }
+
+  .text-article .content {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.02px;
+    color: #000000;
+    /* Digital Marketing has changed. It’s no longer about who you are, but how you are perceived. At The Social Us we make sure your message and brand personality makes you impossible to ignore. We take care of both of the general elements of brand management: tangible elements and intangible elements. We are brand artisans, we build your brand from the bottom to the top. From look and feel concept to brand’s voice and personality development. */
+    opacity: 1.00;
+  }
+
+
+  .principal-image {
+    margin-top: 15vh;
+    height: 60vh;
+    /* max-width: none; */
+  }
+
+  .text-primary-box {
+    margin-top: 0px;
+  }
+
+  .primary-title {
+    font-weight: bolder;
+    color: #333333;
+    letter-spacing: 0.02px;
+    font-family: 'Lato';
+    margin-left: 25%;
+    font-size: 40px;
+    text-align: left;
+  }
+
+  .dissapear{
+    display: none;
+  }
+
+  .imgs-wrapper .img-back {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    right: 40px;
+    z-index: 1;
+  }
+
+
+
+  .list-container p {
+    text-align: left;
+    color: #FFF;
+  }
+
+  .imgs-wrapper .img-front {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    z-index: 2;
+    top: 100px;
+    right: 60px;
+  }
+
+  .decoration-1{
+    max-width: 50%;
+  }
+
+}
+
+@media (max-width: 320px){
+  #sect-3 {
+    height: 155vh;
+  }
+  #sect-4-2 .decoration-1 {
+    position: relative;
+    bottom: 25px;
+  }
+  .web-design-resp, .inbound-marketing {
+      height: 230vh !important;
+  }
+}

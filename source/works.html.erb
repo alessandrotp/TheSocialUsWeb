@@ -1,0 +1,53 @@
+---
+title: 	Works - The Social Us
+---
+
+<%= stylesheet_link_tag 'works' %>
+<%= stylesheet_link_tag 'progress-wizard' %>
+
+<%= partial "vertical_menu" %>
+<%= partial "logo_tsu" %>
+
+<div id="wrapping" class="row">
+  <div id="wrap-text" align="left" class="columns medium-offset-0 medium-6 small-offset-1 small-11">
+    <p id="title_">
+      CHECK OUT <br>THE <strong>COOL</strong><br><strong>STUFF WE DO</strong>
+    </p>
+    <%= image_tag "images/rectangle_work.png"%>
+
+    <div id="directionals">
+      <div id="text-complement">
+        <span>ELITE</span>
+        <p>LUXURY PROPERTY CARE</p>
+      </div>
+    </div>
+    <div class="row">
+      <div id="menu-sliders" class="columns small-12">
+        <%= image_tag "images/works/left.png"%>
+        <a href="/work_elite.html">
+          <span>VIEW CASE</span>
+        </a>
+        <%= image_tag "images/works/right.png"%>
+      </div>
+    </div>
+  </div>
+
+  <div id="wrap-img" class="columns medium-offset-0 medium-6 small-offset-1 small-11">
+    <%= image_tag "images/alite.png", :id => 'portada' %>
+  </div>
+</div>
+
+<!--
+<div class="row">
+  <div class="columns medium-offset-4 medium-4">
+    <ul class="progress-indicator">
+      <li class="completed"> <span class="bubble"></span> Elite </li>
+      <li> <span class="bubble"></span> Step 2. </li>
+      <li> <span class="bubble"></span> Step 3. </li>
+      <li> <span class="bubble"></span> Step 4. </li>
+      <li> <span class="bubble"></span> Step 5. </li>
+    </ul>
+  </div>
+</div>
+-->
+<%= partial "social_media_button" %>

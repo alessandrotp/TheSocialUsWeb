@@ -1,0 +1,435 @@
+@media (min-width: 1000px){
+
+  .text-section{
+    position: relative;
+    bottom: 140px;
+  }
+
+  #content-4{
+    font-size: 90px;
+  }
+
+  #squa-container{
+    top: 0vh !important;
+    position: relative;
+  }
+
+  #squa-container[data-state=hide] {
+    transition: all 0.5s ease;
+    transform: translateY(0px);
+    opacity: 0;
+  }
+
+  #squa-container[data-state=show]{
+    transition: all 0.5s ease;
+    transform: translateY(-110px);
+    opacity: 1;
+  }
+}
+
+@media (max-width:480px){
+
+  .dissapear{
+    display: none;
+  }
+
+  .home-text-cont{
+    bottom: 20%;
+    h1 {
+      font-size: 36px;
+    }
+  }
+
+  .home-square {
+    display: none;
+  }
+
+  #img-1{
+    width: 65px;
+  }
+
+  #img-2{
+    width: 40px;
+  }
+
+  .home-img{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .home-banner-cont{
+    display: none;
+    .home-text-cont{
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      bottom: 30vh;
+       h1{
+          font-size: 36px;
+        }
+     }
+  }
+  //--------- sec 2 ----------//
+  #sec-2 {
+    height: 130vh;
+  }
+
+  #title-sec2 {
+    font-size: 50px;
+  }
+
+  #yellow-square{
+    display: none;
+  }
+
+  // subtitles
+  #subtitle-sec2 {
+    right: 0px;
+  }
+
+  #title-sec3 {
+    text-align: left;
+    padding-left: 0px;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 80%;
+    color: #00916B;
+    opacity: 1.00;
+  }
+
+  #subtitle-sec2{
+    padding: 0px;
+    font-size: 12px;
+  }
+
+  #sec-5{
+    position:relative;
+    top:20vh;
+    font-weight: bold;
+  }
+
+  #l-menu{
+    margin-left: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #standard_word{
+    display: none;
+  }
+
+  #content-4{
+    font-size: 52px;
+  }
+
+  #img-rect{
+    height: 230px;
+  }
+
+  #sec-3-responsive{
+    display: block !important;
+  }
+  //----------- secc 4
+  #sec-4 {
+    height: 230vh;
+    width: 100vw;
+    background: linear-gradient(180deg, #FF6362 0%, #FFE100 100%);
+    opacity: 1.00;
+  }
+  #squa-container{
+    position:relative;
+    top:20vh;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 833px) {
+  .home-text-cont h1 {
+    font-size: 46px  ;
+  }
+
+  .home-square {
+    display: none;
+  }
+
+  #img-1{
+    width: 65px;
+  }
+
+  #img-2{
+    width: 40px;
+  }
+
+  .home-img{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .home-banner-cont{
+    display: none;
+    .home-text-cont{
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      bottom: 30vh;
+       h1{
+          font-size: 36px;
+        }
+     }
+  }
+
+  #title-sec2 {
+    font-size: 60px;
+  }
+
+  #title-sec3 {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 80%;
+    color: #00916B;
+    opacity: 1.00;
+  }
+
+  .dissapear{
+    display: none;
+  }
+
+  #sec-3-responsive{
+    display: block !important;
+  }
+}
+
+@media (min-width: 481px){
+  #sec-5{
+    position:relative;
+    top:20vh;
+    padding-right:30vw;
+    padding-left:30vw;
+    font-weight: bold;
+  }
+
+  #l-menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #responsive_word{
+    display: none;
+  }
+  #squa-container{
+    position:relative;
+    top:20vh !important;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 384px) {
+
+  .dissapear{
+    display: none;
+  }
+
+  .home-text-cont{
+    bottom: 20%;
+    h1 {
+      font-size: 36px;
+    }
+  }
+
+  .home-square {
+    display: none;
+  }
+
+  #img-1{
+    width: 65px;
+  }
+
+  #img-2{
+    width: 40px;
+  }
+
+  .home-img{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .home-banner-cont{
+    display: none;
+    .home-text-cont{
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      bottom: 30vh;
+       h1{
+          font-size: 36px;
+        }
+     }
+  }
+  //--------- sec 2 ----------//
+  #sec-2 {
+    height: 130vh;
+  }
+
+  #title-sec2 {
+    font-size: 50px;
+  }
+
+  #yellow-square{
+    display: none;
+  }
+
+  // subtitles
+  #subtitle-sec2 {
+    right: 0px;
+  }
+
+  #title-sec3 {
+    text-align: left;
+    padding-left: 0px;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 80%;
+    color: #00916B;
+    opacity: 1.00;
+  }
+
+  #subtitle-sec2{
+    padding: 0px;
+    font-size: 12px;
+  }
+
+  #sec-5{
+    position:relative;
+    top:20vh;
+    font-weight: bold;
+  }
+
+  #l-menu{
+    margin-left: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #standard_word{
+    display: none;
+  }
+
+  #content-4{
+    font-size: 52px;
+  }
+
+  #img-rect{
+    height: 230px;
+  }
+
+  #sec-3-responsive{
+    display: block !important;
+  }
+
+  //----------- secc 4
+  #sec-4 {
+    height: 180vh;
+    width: 100vw;
+    background: linear-gradient(180deg, #FF6362 0%, #FFE100 100%);
+    opacity: 1.00;
+  }
+
+  #content-4 {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+
+  @media(max-height: 600px){
+    #squa-container{
+      position:relative;
+      top:10vh;
+    }
+  }
+
+  @media(min-height: 601px){
+    #squa-container{
+      position:relative;
+      top:30vh;
+    }
+  }
+}
+
+@media (max-width: 320px){
+  #content-4 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  #sec-4 {
+    height: 200vh;
+    width: 100vw;
+    background: linear-gradient(180deg, #FF6362 0%, #FFE100 100%);
+    opacity: 1.00;
+  }
+
+  #lists-specialities .options li {
+    font-size: 20px;
+  }
+
+
+  #squa-container {
+    position: relative;
+    top: 29vh;
+  }
+}
+
+@media (min-width: 412px) and (max-width: 420px){
+  #squa-container {
+    position: relative;
+    top: 75vh;
+  }
+}
+
+
+@media(max-width: 767px){
+  #lists-specialities{
+    width: 100% !important;
+    right: 0%;
+  }
+}
+//-- animations
+#text-sec2[data-state=hide]{
+  transition: all 0.5s ease;
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+#text-sec2[data-state=show]{
+  transition: all 0.5s ease;
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+#first-msg.changing-text{
+  transition: all 0.5s ease;
+  right: 60% !important;
+  opacity: 0;
+}
+
+#first-msg.wait{
+  transition: all 0.5s ease;
+  right: 0%;
+  opacity: 0;
+}
+
+#first-msg.new-text{
+  transition: all 0.5s ease;
+  right: 40% !important;
+  opacity: 1 !important;
+}

@@ -1,0 +1,163 @@
+---
+title: 	Service - The Social Us
+---
+
+<%= stylesheet_link_tag 'services' %>
+<%= stylesheet_link_tag 'revealer' %>
+
+<div class="services-cont">
+	<%= partial "vertical_menu" %>
+	<div class="row">
+
+		<div class="columns medium-offset-0 medium-7 small-offset-1 small-10">
+			<div class="columns small-offset-2 small-10 medium-offset-1 medium-10">
+				<div class="row text-load" id="wrap-title" data-status="loading">
+					<h1 id="title-serv">WE GOT YOUR <br class="diss"/>BACK, <b>these are <br/>
+						our G.U.N.S.</b></h1>
+						<p class="diss" style="color: #FFCB00;">(Great, Unique, Neat, Specialties)</p>
+					</div>
+				</div>
+
+			<div id="title-service" class="columns small-offset-0 small-10 medium-offset-1 medium-10">
+				<div class="row pos-title_" id="title_up">
+						<div id="pos-rect-b" class="columns small-3">
+							<%= image_tag "images/rectangle_black.png"%>
+						</div>
+						<div class="columns small-9"></div>
+					</div>
+				<div class="row pos-title_" id="title_down">
+					<div class="list-services">
+						<div data-position="1" class="actived list-title">
+							<h2 class="title_" style="">
+								Visual
+							</h2>
+							<h2 class="title_" style="">
+								Storyteling
+							</h2>
+						</div>
+
+						<div data-position="2" class="hidden list-title">
+							<h2 class="title_" style="">
+								Web
+							</h2>
+							<h2 class="title_" style="">
+								Design
+							</h2>
+						</div>
+
+						<div data-position="3" class="hidden list-title">
+							<h2 class="title_" style="">
+								Tech
+							</h2>
+							<h2 class="title_" style="">
+								Solutions
+							</h2>
+						</div>
+
+						<div data-position="4" class="hidden list-title">
+							<h2 class="title_" style="">
+								Brand
+							</h2>
+							<h2 class="title_" style="">
+								Development
+							</h2>
+						</div>
+
+						<div data-position="5" class="hidden list-title">
+							<h2 class="title_" style="">
+								Inbound							</h2>
+							<h2 class="title_" style="">
+								Marketing
+							</h2>
+						</div>
+
+					</div>
+
+						<div class="indicators">
+							<div class="row">
+								<div class="columns small-offset-0 small-3 medium-offset-1 medium-3" id="btn-prev" onclick="clicked_prev();">
+									<%= image_tag "images/prev-btn.png"%>
+								</div>
+								<a id="link-current" href="/visual_storytelling.html">
+									<div id='btn-suround' data-current="1" class="columns small-4 medium-3" style="border: 2px solid #333;border-radius: 23px;">
+										<button id="btn-explore" style="width:100%;">explore</button>
+									</div>
+								</a>
+								<div class="columns small-3 medium-3" id="btn-next" onclick="clicked_next();">
+									<%= image_tag "images/next-btn.png"%>
+								</div>
+								<div class="columns small-1"></div>
+							</div>
+						</div>
+					</div>
+			</div>
+
+		</div>
+		<div id="img-row" class="columns medium-5 resp-position">
+			<div class="row" style="display: flex;align-items: center;">
+				<div class="columns small-11">
+					<%= image_tag "images/visual-storytelling.png", :class => "to-slide actived", :data =>{:pos => '1'}%>
+					<%= image_tag "images/brand-development.png", :class => "to-slide hidden", :data =>{:pos => '2'}%>
+					<%= image_tag "images/tech-solutions.png", :class => "to-slide hidden", :data =>{:pos => '3'}%>
+					<%= image_tag "images/web-design.png", :class => "to-slide hidden", :data =>{:pos => '4'}%>
+					<%= image_tag "images/inbound-marketing.png", :class => "to-slide hidden", :data =>{:pos => '5'}%>
+				</div>
+
+
+				<div class="columns small-1 diss">
+					<ul class="progress-indicator stacked">
+						<li class="completed">
+							<a href="#">about
+								<span id='li-1' class="bubble bubble-nolast li-active"></span>
+								<!-- <span class="stacked-text">
+									<span class="subdued">/ Added a thing. <em>Pssst... I'm a link!</em></span>
+								</span> -->
+							</a>
+						</li>
+						<li class="completed">
+							<a href="#">
+								<span id='li-2' class="bubble bubble-nolast"></span>
+								<!-- <span class="stacked-text">
+									<span class="fa fa-calendar"></span> May 21st, 2014
+									<span class="subdued">/ Some stuff happened. It was amazing.</span>
+								</span> -->
+							</a>
+						</li>
+						<li class="completed">
+							<a href="#">
+								<span id='li-3' class="bubble bubble-nolast"></span>
+								<!-- <span class="stacked-text">
+								<span class="subdued">/ What a wild day!</span>
+										</span> -->
+									</a>
+								</li>
+								<li class="completed">
+									<a href="#">
+										<span id='li-4' class="bubble bubble-nolast"></span>
+										<!-- <span class="stacked-text">
+										<span class="fa fa-comment"></span> January 5th, 2014
+										<span class="subdued">/ Happy birthday, me!</span>
+									</span> -->
+								</a>
+							</li>
+							<li class="completed">
+								<a href="#">
+									<span id='li-5' class="bubble"></span>
+									<!-- <span class="stacked-text">
+									<span class="fa fa-comment"></span> January 5th, 2014
+									<span class="subdued">/ Happy birthday, me!</span>
+								</span> -->
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<%= partial "social_media_button" %>
+</div>
+
+<script src="javascripts/anime.min.js"></script>
+<script src="javascripts/scrollMonitor.js"></script>
+<script src="javascripts/main.js"></script>
+<script src="javascripts/services.js"></script>

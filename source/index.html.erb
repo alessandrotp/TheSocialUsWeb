@@ -1,0 +1,286 @@
+---
+title: The Social Us
+---
+<%= stylesheet_link_tag 'responsive_home' %>
+
+<section class="home-cont whole-screen" id="sec-1">
+	<%= partial "vertical_menu" %>
+	<%= partial "logo_tsu" %>
+	<%= image_tag "images/slide-3.png", :class => 'home-img slider-back', :data => {:state => 'stay'}%>
+	<%= image_tag "images/slide-1.png", :class => 'home-img slider', :data => {:state => 'stay'}%>
+	<%= image_tag "images/slide-2.png", :class => 'home-img slider-next', :data => {:state => 'stay'}%>
+
+	<div class="home-text-cont">
+	<h1><span>WHAT YOU´RE</span> MISSING <b id="reponsive-brkln">IS WHAT</b><span><b> WE´VE GOT!</b></span>
+	</div>
+	<div class="home-banner-cont">
+		<p>TECH SOLUTIONS - WEB DESIGN - BRAND DEVELOPMENT - INBOUND MARKETING - VISUAL STORYTELLING</p>
+	</div>
+	<div class="home-square">
+	</div>
+
+	<%= partial "social_media_button" %>
+</section>
+
+<section id="sec-2">
+	<div id="text-sec2" data-state='hide'>
+		<div class="row">
+			<h2 id="title-sec2" class='columns small-8 small-offset-2 medium-10 medium-offset-1 '>
+				And These are our
+			</h2>
+		</div>
+		<div class="row">
+			<h2 id="title-sec3" class='columns small-8 small-offset-2 medium-8 medium-offset-2'>
+				<span id="sp-guns">G.U.N.S</span>
+			</h2>
+		</div>
+		<div class="row">
+			<p id="subtitle-sec2" class="columns small-8 small-offset-2 medium-8 medium-offset-2" align="right">
+				(Great, Unique, Neat, Specialities)
+			</p>
+		</div>
+	</div>
+
+	<style>
+		#wrapper-square{
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+		}
+		#yellow-square{
+			margin-left:5%;
+			width: 50%;
+		}
+		#lists-specialities{
+			width: 40%;
+		}
+	</style>
+
+	<div id="wrapper-square" class="">
+		<div id="yellow-square" class=""> <!-- square-yellow -->
+			<div class="row" style="overflow-y: hidden;overflow-x: hidden;padding-top: 115px;padding-left: 15%;">
+				<div class="small-3 columns" style="height:200px;border-top:12px solid yellow;padding:0px;">
+					<div id="first-msg-container" style="height:200px;border-left:12px solid yellow;"></div>
+					<span id="first-msg" class="active">Tech Solutions</span>
+					<div style="height:120px;border-left:12px solid yellow;border-bottom: 12px solid yellow;"></div>
+				</div>
+
+				<div id="wrap-images-specialties" class="small-6 columns">
+					<%= image_tag "images/img-1.png", :class => "img-spec active-spec", :data => {:state => 'hide'}%>
+					<%= image_tag "images/img-2.png", :class => "img-spec"%>
+					<%= image_tag "images/img-3.png", :class => "img-spec"%>
+					<%= image_tag "images/img-4.png", :class => "img-spec"%>
+					<%= image_tag "images/img-5.png", :class => "img-spec"%>
+				</div>
+
+				<div class="small-3 columns" style="padding:0px;">
+					<div style="height:267px;border-left:12px solid yellow;"></div>
+					<div id="second-msg">
+						Future in the making. <br>
+						Cutting edge apps and <br>
+						web applications.
+					</div>
+					<div style="height:52px;border-left:12px solid yellow;"></div>
+				</div>
+			</div>
+		</div>
+		<div id="lists-specialities" class="">
+			<ul class="options" id="ul-specialities">
+				<li data-index='1'>Tech Solutions</li>
+				<li data-index='2'>Brand Development</li>
+				<li data-index='3'>Web Design</li>
+				<li data-index='4'>Inbound Marketing</li>
+				<li data-index='5'>Visual Story Telling</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<section class="whole-screen dissapear" id="sec-3">
+	<div id="sec-3-1">
+		<div class="row">
+			<div id="colum1" class="columns medium-offset-1 medium-3" style="position: relative; bottom: 25vh" data-parallax="inactive">
+				<div class="row">
+					<div class="columns small-9" style="padding:0px;">
+						<div class="orange-hover">
+							<%= image_tag "images/blog1.png"%>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="columns small-9" style="padding:0px;">
+						<div class="orange-hover">
+							<%= image_tag "images/blog2.png"%>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="columns small-9" style="padding:0px;">
+						<div class="orange-hover">
+							<%= image_tag "images/blog3.png"%>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="colum2" class="columns medium-3" style="position: relative; bottom: 55vh;" data-parallax="inactive">
+				<div class="row">
+					<div class="columns small-9" style="padding:0px;">
+						<div class="orange-hover">
+							<%= image_tag "images/blog4.png"%>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="columns small-9" style="padding:0px;">
+						<div class="orange-hover">
+							<%= image_tag "images/blog5.png"%>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="columns small-9" style="padding:0px;">
+						<div class="orange-hover">
+							<%= image_tag "images/blog6.png"%>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="columns small-9" style="padding:0px;">
+						<div class="orange-hover">
+							<%= image_tag "images/blog7.png"%>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="colum3" class="columns small-4" style="position: relative; bottom: 25vh;" data-parallax="inactive">
+				<div class="row">
+					<div class="columns small-8">
+						<div class="orange-hover">
+							<%= image_tag "images/blog8.png"%>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="columns small-12">
+						<div style="height:253px;background-color:#323232;margin-bottom:10px;padding:25px;">
+							<h2 align="left" style="color:white;"><b>BLOG</b> BY US</h2>
+							<p align="left" style="color:white;">Some thoughts from our restless minds.</p>
+							<div align="right">
+								<a href="#" style="color:white;">VIEW ALL POST</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="columns small-8">
+						<div class="orange-hover">
+							<%= image_tag "images/blog9.png", :class => 'dissapear'%>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="columns small-1"></div>
+		</div>
+	</div>
+</section>
+
+<section class="whole-screen" id="sec-3-responsive">
+	<div class="row">
+		<div class="column orange-hover small-offset-1 small-10">
+			<%= image_tag "images/blog4.png"%>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="column orange-hover small-offset-1 small-10">
+			<%= image_tag "images/blog1.png"%>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="column small-12" style="background-color:#323232;">
+			<div style="height:253px;margin-bottom:10px;padding-left:45px;padding-top:25px;position: relative;">
+				<h2 align="left" style="color:white;font-size: 2.5rem;"><b>BLOG</b> BY US</h2>
+				<p align="left" style="color:white;font-size: 1.25rem;line-height: 1.4rem;">Some thoughts from our restless minds.</p>
+				<p align="left" style="position: absolute; bottom: 0;">
+					<a href="#" style="color:white;">VIEW ALL POST</a>
+				</p>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="row">
+		<div class="column small-offset-1 small-10 orange-hover">
+			<%= image_tag "images/blog5.png"%>
+		</div>
+	</div>
+</section>
+
+<section class="whole-screen" id="sec-4">
+	<div class="row">
+		<div class="column small-offset-1 small-10 text-section">
+			<div id="content-4">
+				<span>OUR MINDS ARE ALL OVER THE PLACE,</span> <b>BUT OUR <span id="standard_word">HEADQUARTERS</span> <span id="responsive_word">HQ</span> ARE NOT</b>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div id="squa-container" class="small-8 small-offset-2" data-state="hide">
+			<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-d5c9a180-eba4-4386-9dd5-811872b875b6"><span class="hs-cta-node hs-cta-d5c9a180-eba4-4386-9dd5-811872b875b6" id="hs-cta-d5c9a180-eba4-4386-9dd5-811872b875b6"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="http://cta-redirect.hubspot.com/cta/redirect/2442552/d5c9a180-eba4-4386-9dd5-811872b875b6"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-d5c9a180-eba4-4386-9dd5-811872b875b6" style="border-width:0px;" height="510" width="1445" src="https://no-cache.hubspot.com/cta/default/2442552/d5c9a180-eba4-4386-9dd5-811872b875b6.png"  alt="SEO Ebook Traffic Generation"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(2442552, 'd5c9a180-eba4-4386-9dd5-811872b875b6', {}); </script></span><!-- end HubSpot Call-to-Action Code -->
+		<div class="small-2"></div>
+	</div>
+	</div>
+</section>
+
+<section class="whole-screen" id="sec-5">
+	<ul id="l-menu" style="">
+		<li>
+			<a href="/">Home</a>
+		</li>
+		<li>
+			<a href="/about.html">About Us</a>
+		</li>
+		<li>
+			<a href="/services.html">Services</a>
+		</li>
+		<li>
+			<a href="/works.html">Works</a>
+		</li>
+		<li>
+			<a href="#">Blog</a>
+		</li>
+	</ul>
+	<p>480 NE 30st. PH 2204. Miami, FL. 33137</p>
+	<div>
+	  <ul class="social_">
+	    <li data-show="false" class="social_" id="li-fb" align="right">
+				<a class="sn-container" href="https://www.facebook.com/">
+					<%= image_tag "images/facebook.png", :class => "social_" %>
+				</a>
+        <!-- <button class="child" data-show="false">Fb</button> -->
+	    </li>
+	    <li data-show="false" class="social_" id="li-tw" align="right">
+				<a class="sn-container" href="https://twitter.com/">
+					<%= image_tag "images/twitter.png", :class => "social_" %>
+				</a>
+      	<!-- <button class="child" data-show="false">Tw</button> -->
+	    </li>
+	    <li data-show="false" class="social_" id="li-in" align="right">
+				<a class="sn-container" href="https://instagram.com/">
+					<%= image_tag "images/linkedIn.png", :class => "social_" %>
+				</a>
+      	<!-- <button class="child" data-show="false">Ins</button> -->
+	    </li>
+	    <li data-show="false" class="social_" id="li-bh" align="right">
+        <a class="sn-container" href="https://instagram.com/">
+					<%= image_tag "images/behance.png", :class => "social_" %>
+				</a>
+      	<!-- <button class="child" data-show="false">Ins</button> -->
+	    </li>
+	  </ul>
+  </div>
+</section>
+<script src="javascripts/home.js"></script>

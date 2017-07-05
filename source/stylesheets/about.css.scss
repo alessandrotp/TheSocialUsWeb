@@ -1,0 +1,337 @@
+//-------------------About Us--------------------
+
+#about-title-1.loading, #text-white-column.loading{
+  display: none;
+}
+
+#about-slide-1, #about-slide-2, #about-slide-5 {
+  height: 100vh;
+ }
+
+#sec-about-2{
+  width: 100%;
+  height: 48vh;
+  background: url('../images/background-2.png');
+  opacity: 1.00;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.block-big[data-show=hide]{
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+.block-big[data-show=up]{
+  transition: all .75s ease;
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+//----------- section 3
+#sec-about-3{
+  #cta-one{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    #hs-cta-wrapper-17887496-85c0-4383-9688-65d7064045e2{
+      width: 50%;
+    }
+  }
+  height: 90vh;
+  background-color: #FFF;
+  padding-bottom: 10vh;
+  div{
+    position: relative;
+    div{
+      position: relative;
+      bottom: 0px;
+    }
+  }
+}
+
+#s-a-3-left, #s-a-3-left-2{
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 135%;
+  color: #000000;
+  opacity: 1.00;
+  text-align: right;
+}
+
+#s-a-3-right, #s-a-3-right-2{
+  font-family: "Quicksand";
+  font-style: normal;
+  font-size: 72px;
+  line-height: 95%;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 1.00;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: left;
+}
+
+//---------------- section 4
+#sec-about-4{
+  padding-top: 15vh;
+  height: 60vh;
+  background: linear-gradient(180deg, #006FFF 0%, #FF6362 100%);
+  opacity: 1.00;
+}
+
+#about-slide-1{
+    background-image: url("../images/about-bg.png");
+    opacity: 1.00;
+}
+
+#about-slide-2{
+}
+
+#about-cta-1{
+	height: 240px;
+	background: wheat;
+}
+
+#about-title-1{
+  text-align: right;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-size: 100px;
+  line-height: 85%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 1.00;
+}
+
+#about-title-2{
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 85%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 1.00;
+}
+#about-title-3{
+  text-align: left;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-size: 54px;
+  font-weight: bold;
+  line-height: 80%;
+  text-transform: uppercase;
+  color: #333333;
+  opacity: 1.00;
+
+}
+
+#text-white-column{
+  text-align: justify;
+  padding-top: 20px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 135%;
+  letter-spacing: 0.02px;
+  color: #FFFFFF;
+  opacity: 1.00;
+}
+
+.adjust-1{
+  margin-top: 20%;
+}
+
+#msg-text{
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 61px;
+  line-height: 90%;
+  color: #FFF;
+  opacity: 1.00;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+//-----------------//About Us--------------------
+
+@media (max-width: 640px){
+  #sec-about-1{
+    height: 110vh;
+    background-image: linear-gradient(180deg, #00FF6D 0%, #006FFF 100%);
+  }
+
+  #about-title-1 {
+    text-align: right;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-size: 40px;
+    line-height: 85%;
+    text-transform: uppercase;
+    color: #FFF;
+    opacity: 1.00;
+    #about-title-2 {
+      font-weight: bold;
+      font-size: 50px;
+    }
+  }
+
+  #text-white-column {
+    margin-top: 12px;
+    text-align: justify;
+    padding-top: 20px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 135%;
+    letter-spacing: 0.02px;
+    color: #FFF;
+    opacity: 1.00;
+  }
+
+  #about-slide-1{
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #about-title-3{
+    h1{
+      font-size: 40px;
+    }
+  }
+
+  #s-a-3-right, #s-a-3-right-2 {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-size: 40px;
+    line-height: 95%;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 1.00;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: left;
+  }
+
+  #s-a-3-left, #s-a-3-left-2 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 135%;
+    color: #000000;
+    opacity: 1.00;
+    text-align: left;
+  }
+
+  #first-ant{
+    text-align: right;
+    margin-bottom:20px;
+    position:relative;
+  }
+
+  #second-ant{
+    text-align: left;
+    margin-bottom:20px;
+  }
+
+  #msg-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 90%;
+    color: #FFFFFF;
+    opacity: 1.00;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .block-big {
+    position: relative;
+    bottom: 20px !important;
+  }
+
+
+  #sec-about-4 {
+    padding-top: 2vh;
+    height: 60vh;
+    background: linear-gradient(180deg, #006FFF 0%, #FF6362 100%);
+    opacity: 1.00;
+  }
+
+  #footer-link {
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 2 !important;
+    letter-spacing: 0.3px;
+    opacity: 1.00;
+    margin-bottom: 5vh;
+  }
+}
+
+@media (min-width: 641px){
+  #sec-about-1{
+    height: 100vh;
+    background-image: linear-gradient(180deg, #00FF6D 0%, #006FFF 100%);
+  }
+
+  #about-slide-1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #first-ant{
+    margin-bottom:20px
+  }
+  #second-ant{
+    margin-bottom:20px;
+  }
+
+  .block-big {
+    position: relative;
+    bottom: 45px !important;
+  }
+}
+
+@media (max-width: 320px){
+  #sec-about-1 {
+    height: 130vh;
+    background-image: linear-gradient(180deg, #00FF6D 0%, #006FFF 100%);
+  }
+  #sec-about-2 {
+    width: 100%;
+    height: 55vh;
+    background: url(../images/background-2.png);
+    opacity: 1.00;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  #sec-about-3 {
+    height: 103vh;
+    background-color: #FFF;
+    padding-bottom: 10vh;
+  }
+  #sec-about-4 {
+    padding-top: 2vh;
+    height: 75vh;
+    background: linear-gradient(180deg, #006FFF 0%, #FF6362 100%);
+    opacity: 1.00;
+  }
+}

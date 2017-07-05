@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "The Social Us" %></title>
+
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="/fonts/foundation-icons.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/11bd6509be.js"></script>
+
+    <!-- jquery -->
+    <script src="/javascripts/vendor/jquery.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- Foundation -->
+    <link rel="stylesheet" href="stylesheets/foundation.css">
+    <link rel="stylesheet" href="stylesheets/app.css">
+    <script src="/javascripts/what-input.js"></script>
+    <script src="/javascripts/foundation.js"></script>
+    <!-- <script src="/javascripts/foundation.accordion.js"></script> -->
+    <script src="/javascripts/app.js"></script>
+    <!-- <script src="/javascripts/foundation.accordionMenu.js"></script> -->
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/TSULogo.png" />
+
+    <%= stylesheet_link_tag :site %>
+    <%= javascript_include_tag :all %>
+  </head>
+
+  <body class="<%= page_classes %>">
+    <%= yield %>
+  </body>
+</html>

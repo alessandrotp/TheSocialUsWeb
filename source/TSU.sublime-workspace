@@ -1,0 +1,444 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"large",
+				"large-offset-2"
+			],
+			[
+				"larg",
+				"large-6"
+			],
+			[
+				"lar",
+				"large-6"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"col",
+				"columns"
+			],
+			[
+				"large-o",
+				"large-offset-2"
+			],
+			[
+				"ab",
+				"about-slide-2\t about.css.scss"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"service",
+				"service-title\t header_menu.css.scss"
+			],
+			[
+				"foo",
+				"footer-col-3-m\t site.css.scss"
+			],
+			[
+				"foot",
+				"footer-col-1\t site.css.scss"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"medium",
+				"medium-6"
+			],
+			[
+				"medi",
+				"medium-6"
+			],
+			[
+				"medum",
+				"medium-6"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html.erb",
+			"settings":
+			{
+				"buffer_size": 821,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "stylesheets/site.css.scss",
+			"settings":
+			{
+				"buffer_size": 2449,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 252.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"acka",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 342.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/peggysue/TSUWeb/source",
+		"/home/peggysue/TSUWeb/source/javascripts",
+		"/home/peggysue/TSUWeb/source/layouts",
+		"/home/peggysue/TSUWeb/source/stylesheets"
+	],
+	"file_history":
+	[
+		"/home/peggysue/TSUWeb/source/stylesheets/services_template.css.scss",
+		"/home/peggysue/TSUWeb/source/inbound_marketing.html.erb",
+		"/home/peggysue/TSUWeb/source/tech_solutions.html.erb",
+		"/home/peggysue/TSUWeb/source/visual_storytelling.rails",
+		"/home/peggysue/TSUWeb/source/brand_development.html.erb",
+		"/home/peggysue/TSUWeb/source/web_design.html.erb",
+		"/home/peggysue/TSUWeb/source/our_services.html.erb",
+		"/home/peggysue/TSUWeb/source/_footer.erb",
+		"/home/peggysue/TSUWeb/source/stylesheets/footer.css.scss",
+		"/home/peggysue/TSUWeb/source/stylesheets/about.css.scss",
+		"/home/peggysue/TSUWeb/source/services_template.scss",
+		"/home/peggysue/TSUWeb/source/about.html.erb",
+		"/home/peggysue/TSUWeb/source/stylesheets/our_services.css.scss",
+		"/home/peggysue/TSUWeb/source/stylesheets/our_services.html.erb",
+		"/home/peggysue/TSUWeb/source/index.html.erb",
+		"/home/peggysue/Elite/source/stylesheets/site.css.scss",
+		"/home/peggysue/Elite/source/stylesheets/family.css.scss",
+		"/home/peggysue/Elite/source/stylesheets/footer.css.scss",
+		"/home/peggysue/Elite/source/stylesheets/header_menu.css.scss",
+		"/home/peggysue/Elite/source/family.html.erb",
+		"/home/peggysue/Elite/source/_footer.erb",
+		"/home/peggysue/Elite/source/_header_menu.erb",
+		"/home/peggysue/Elite/source/index.html.erb",
+		"/home/peggysue/Elite/source/stylesheets/concierge.css.scss",
+		"/home/peggysue/Elite/source/stylesheets/service.css.scss",
+		"/home/peggysue/Elite/source/services.html.erb",
+		"/home/peggysue/Elite/source/property.html.erb",
+		"/home/peggysue/Elite/source/concierge.html.erb",
+		"/home/peggysue/Elite/source/layouts/layout.erb",
+		"/home/peggysue/Elite/source/javascripts/all.js",
+		"/home/peggysue/Elite/source/stylesheets/property.css.scss",
+		"/home/peggysue/Elite/source/stylesheets/test.scss",
+		"/home/peggysue/.config/sublime-text-3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/home/peggysue/.config/sublime-text-3/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
+		"/home/peggysue/.config/sublime-text-3/Packages/SublimeCodeIntel/Default (Linux).sublime-mousemap",
+		"/home/peggysue/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/home/peggysue/.config/sublime-text-3/Packages/CSS Extended Completions/css_style_completions.sublime-settings",
+		"/home/peggysue/Elite/source/msc.sublime-project",
+		"/home/peggysue/Elite/source/stylesheets/msc.sublime-project"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";\n",
+			"inbound",
+			"brand",
+			"brando",
+			"design",
+			"tech",
+			"Designq",
+			"class=\"about-sli",
+			"about-text",
+			"blog-img",
+			"transition",
+			"drawer",
+			"transition",
+			"hei",
+			"150px",
+			"%;\n",
+			"transition",
+			"lato"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"visual",
+			"inbound",
+			"brand",
+			"design",
+			"id=\"about-sli",
+			"",
+			"our-services-img"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								821,
+								821
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/ERB Autocomplete/erb.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "stylesheets/site.css.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								820,
+								820
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 210.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.489036805012,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "TSU.sublime-project",
+	"replace":
+	{
+		"height": 82.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 258.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

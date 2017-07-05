@@ -1,0 +1,74 @@
+<%= stylesheet_link_tag 'vertical_menu' %>
+<div id="wrapper-menu">
+	<div id="vertical-menu" class="vertical-menu" role="list" data-toggle='up'>
+		<div id='role-works' role="option">
+			<a href="/works.html">WORKS</a>
+		</div>
+		<div id='role-blog' role="option">
+			<a href="http://blog.thesocialus.com">BLOG</a>
+		</div>
+		<div id='role-services' role="option">
+			<a href="/services.html">SERVICES</a>
+		</div>
+		<div id='role-about' role="option">
+			<a href="/about.html">
+				ABOUT US
+			</a>
+		</div>
+		<div id='role-home' role="option">
+			<a href="/">HOME</a>
+		</div>
+	</div>
+	<button id="btn-collapse" type="button" data-toggle='up'>
+    <i class="fi-list"></i>
+  </button>
+</div>
+
+<script type="text/javascript">
+	(function(){
+		var btn = document.getElementById('btn-collapse');
+		var height = window.innerHeight;
+		var btn_state = btn.dataset.toggle;
+		var menu = document.getElementById('vertical-menu');
+
+		document.getElementById('role-home').addEventListener('click', function(){
+			location.href = '/';
+		});
+		document.getElementById('role-about').addEventListener('click', function(){
+			location.href = '/about.html';
+		});
+		document.getElementById('role-services').addEventListener('click', function(){
+			location.href = '/services.html';
+		});
+		document.getElementById('role-blog').addEventListener('click', function(){
+			location.href = 'http://blog.thesocialus.com"';
+		});
+		document.getElementById('role-works').addEventListener('click', function(){
+			location.href = '/works.html';
+		});
+
+
+		function hideMenu(){
+			if ( (height/5) <= window.scrollY) {
+				menu.dataset.toggle = btn.dataset.toggle = "down";
+				btn_state = "down";
+				window.removeEventListener('scroll', hideMenu, false);
+			}else{
+
+			}
+		}
+
+		document.getElementById('btn-collapse').addEventListener('click', function(){
+			if (btn_state == 'up') {
+				menu.dataset.toggle = btn.dataset.toggle = "down";
+				btn_state = "down";
+			} else {
+				menu.dataset.toggle = btn.dataset.toggle = "up";
+				btn_state = "up";
+			}
+		});
+
+		window.addEventListener("scroll", hideMenu);
+	})()
+
+</script>

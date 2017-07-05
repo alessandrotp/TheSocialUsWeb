@@ -1,0 +1,375 @@
+#first{
+  height: 100vh;
+  width: 100vw;
+  background: url('../images/work-skyweg/background_skyweg.png'), linear-gradient(#FE8F5A 0%, #292EBF 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  #texts_{
+    #fs-blq1{
+      text-align: left;
+      margin-bottom: 15vh;
+      z-index: 2;
+      h1{
+        letter-spacing: 6px;
+        color: white;
+        font-size: 6rem;
+        font-weight: bolder;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+      span{
+        color: white;
+        letter-spacing: 2px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+    }
+
+    #fs-blq2{
+      margin-bottom: 10vh;
+      z-index: 1;
+      p{
+        letter-spacing: 3px;
+        text-align: left;
+        font-weight: bolder;
+        color: white;
+      }
+    }
+  }
+
+  #image_{
+    img{
+      height: 70vh;
+    }
+  }
+
+}
+
+#second{
+  padding: 10vh 60px;
+  #top-text{
+    h2{
+      color: #2C30BD;
+      text-align: left;
+      font-weight: bolder;
+      font-size: 2rem;
+    }
+  }
+  #bot-list{
+    .row{
+      div{
+        text-align: left;
+      }
+    }
+
+    h4{
+      text-align: left;
+      color: #2C30BD;
+      font-weight: bolder;
+    }
+
+    .table-left div{
+      text-align: left;
+    }
+  }
+}
+
+#third{
+  background: -webkit-linear-gradient(#292EBF 0%, #FE8F5A 100%);
+  background: -o-linear-gradient(#292EBF 0%, #FE8F5A 100%);
+  background: linear-gradient(#292EBF 0%, #FE8F5A 100%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  #text{
+    text-align: left;
+    margin-left: 50px;
+    div{
+      display:flex;
+      align-items: center;
+      img{
+        width: 60px;
+        height: 10px;
+      }
+      h4{
+        margin: 0px 5px;
+        color: #FFF;
+      }
+    }
+    p{
+      color: #FFF;
+      z-index: 2;
+    }
+  }
+  img#mock-msc{
+    top: -10vh;
+    position: relative;
+    left: 0px;
+    width: 60%;
+    z-index: 0;
+  }
+}
+
+#fifth{
+  position: relative;
+  height: 100vh;
+}
+
+#wrapper-logo{
+  display:flex;
+  justify-content:center;
+  position:absolute;
+  top:-8vh;
+  width: 100vw;
+  #logo-skyweg{
+    height: 40vh;
+  }
+}
+#sixth{
+  position: relative;
+  background: url('../images/work-skyweg/backgroground-skyweg.png');
+  height: 200vh;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.48);
+  #section-1{
+    height: 100vh;
+    position: relative;
+    padding-top: 30vh;
+    #wave{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+  img#cards{
+    bottom: 0;
+    height: 36vw;
+  }
+  #text-right{
+    height: 70vh;
+    justify-content: center;
+    color: white;
+    img{
+      width: 80px;
+    }
+    h4{
+      font-weight: bolder;
+      margin:0 10px;
+    }
+  }
+  #sev-second{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height: 100vh;
+    .row{
+      height: 100%;
+      .columns{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    #img-msc{
+      position: relative;
+      z-index: 1;
+      z-index: 1;
+      width: 100vw;
+      height: 100vh;
+    }
+    .text{
+      div:first-child{
+        display: flex;
+        align-items: center;
+        img{
+          width: 80px;
+        }
+        h4{
+          color: #FFF;
+          margin: 0px;
+        }
+      }
+      p{
+        background-image: url('../images/03.png');
+        background-repeat: no-repeat;
+        background-position: right;
+        text-align: left;
+        color: #FFF;
+      }
+    }
+  }
+}
+
+#seventh{
+  background: linear-gradient(180deg, #2D9CDB 3.41%, #75CCFD 80.99%);
+  height: 200vh;
+  #sev-fisrt{
+    height: 100vh;
+    width: 100vw;
+  }
+  }
+
+#eigth{
+  width: 100vw;
+  height: 35vh;
+  background: linear-gradient(255.76deg, #333333 29.42%, #4F4F4F 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p{
+    color: white;
+  }
+  h1{
+    font-size: 55px;
+    color: white;
+    font-weight: bolder;
+  }
+}
+
+@media(max-width: 767px){
+  #first{
+    justify-content: center;
+    align-items: center;
+    #texts_{
+      z-index: 1;
+      #fs-blq1{
+        text-align: left;
+        margin-top: 35vh;
+        z-index: 2;
+        h1{
+          color: white;
+          font-size: 18vw;
+          font-weight: bolder;
+        }
+        span{
+          color: white;
+          letter-spacing: 2px;
+        }
+      }
+    }
+
+    #fs-blq2{
+      margin-bottom: 5vh;
+      z-index: 1;
+      p{
+        letter-spacing: 3px;
+        text-align: left;
+        font-weight: bolder;
+        color: white;
+      }
+    }
+
+    #texts_{
+      position: absolute;
+    }
+
+    #image_{
+      img{
+        opacity: 0.5;
+        height: 70vh;
+      }
+    }
+  }
+
+  #second{
+    padding: 10vh 60px;
+  }
+
+  #third{
+    background: -webkit-linear-gradient(#292EBF 0%, #FE8F5A 100%);
+    background: -o-linear-gradient(#292EBF 0%, #FE8F5A 100%);
+    background: linear-gradient(#292EBF 0%, #FE8F5A 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    #text{
+      text-align: left;
+      padding: 10px 60px;
+      margin-left: unset;
+      div{
+        display:flex;
+        align-items: center;
+        img{
+          width: 60px;
+          height: 10px;
+        }
+        h4{
+          margin: 0px 5px;
+          color: #FFF;
+        }
+      }
+      p{
+        color: #FFF;
+        z-index: 2;
+      }
+    }
+    img#mock-msc{
+      top: 0vh;
+      position: relative;
+      left: unset;
+      width: 100%;
+      z-index: 0;
+    }
+  }
+
+  #fifth{
+    height: unset;
+  }
+
+  #sixth {
+    z-index: 2;
+    position: relative;
+    background: url(../images/work-skyweg/backgroground-skyweg.png);
+    height: unset;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.48);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    top: unset;
+
+    #section-1{
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+
+    #sev-second{
+      display: unset;
+      .text{
+        padding: 10vh 60px;
+        width: 100%;
+        margin-left: unset;
+
+      }
+      #showcase-3{
+        top: unset;
+        right: unset;
+        width: unset;
+      }
+    }
+    #text-right {
+      height: unset;
+    }
+
+    img#cards{
+      height: 75vw;
+    }
+  }
+
+  #wrapper-logo{
+    display:flex;
+    justify-content:center;
+    position:absolute;
+    top:-20vh;
+    width: 100vw;
+    #logo-skyweg{
+      height: 40vh;
+    }
+  }
+}
+.footer{
+  padding-top: 20px;
+}

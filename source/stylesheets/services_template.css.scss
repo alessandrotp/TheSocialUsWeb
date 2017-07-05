@@ -1,0 +1,294 @@
+//---------------Services Template---------------
+
+.services-s1-left{
+	height: 150vh;
+}
+
+.services-s1-right-1{
+	height: 50vh;
+}
+
+.services-s2-right{
+	height: 75vh;
+}
+
+.services-quote{
+	width: 100%;
+	height: 300px;
+}
+
+.services-cta{
+	height: 220px;
+	background: wheat;
+}
+
+#hs-cta-img-b50e0d3e-d1ee-4e84-bb61-96ecd0ec16a8{
+	height: 33vh;
+	width: 100%;
+}
+//-------------//Services Template---------------
+#wrap-section{
+	/* Rectangle 40 */
+	background: linear-gradient(180deg, #FDEA02 0%, #EB5757 100%);
+	opacity: 1.00;
+}
+
+#sect-2{
+	padding-top: 10vh;
+}
+
+#sect-4{
+	height: 90vh;
+	#sect-4-1{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 55vh;
+		#author-quote{
+			margin-bottom: 0px;
+			margin-top: 15px;
+			/* Socialwood Reporter */
+			font-family: "Lato";
+			font-style: normal;
+			font-weight: 300;
+			font-size: 21px;
+			line-height: 100%;
+			letter-spacing: 0.1px;
+			color: #FFFFFF;
+			opacity: 1.00;
+			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		}
+		#pycho-quote{
+			font-family: "Lato";
+			font-style: normal;
+			font-weight: 900;
+			font-size: 62px;
+			line-height: 100%;
+			color: #FFFFFF;
+			opacity: 1.00;
+			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		}
+	}
+	#sect-4-2{
+		height: 40vh;
+	}
+}
+
+.principal-image{
+	margin-top: 10vh;
+	height: 90vh;
+	max-width: none;
+}
+.text-primary-box{
+	margin-top: 40vh;
+}
+
+.primary-title{
+	font-weight:bolder;
+	color: #333333;
+	letter-spacing:0.02px;
+	font-family:'Lato';
+	margin-left:10%;
+	font-size:100px;
+	text-align: left;
+}
+
+.primary-content{
+	text-align: left;
+}
+
+.text-article{
+	text-align: right;
+	font-family: "Lato";
+	font-style: normal;
+	opacity: 0.00;
+	transform: translateX(-100px);
+	.title-1{
+		font-weight: 900;
+		font-size: 21px;
+		line-height: 120%;
+		letter-spacing: 0.2px;
+		color: #EB7C57;
+		margin: 0px;
+	}
+	h2{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-weight: 900;
+		font-size: 28px;
+		line-height: 90%;
+		color: #333333;
+	}
+	.content{
+		font-weight: 300;
+		font-size: 21px;
+		line-height: 130%;
+		letter-spacing: 0.02px;
+		color: #000000;
+	}
+}
+
+.text-article.viewed{
+	transition: all 0.7s ease;
+	transform: translateX(0px);
+	opacity: 1.00;
+}
+
+.li-wrapper > img{
+	transform: translateX(0px);
+}
+
+.li-wrapper > img.shake-it{
+	animation-duration: 0.5s;
+	animation-name: shake_it;
+	animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+
+.li-wrapper > span{
+	font-weight: 100;
+	cursor:default
+}
+
+.li-wrapper > span.shaking{
+	transition: all ease 0s;
+	font-weight: 700 !important;
+}
+
+
+
+@keyframes shake_it {
+	0%{
+		transform: translateX(0px);
+	}
+
+	50%{
+		transform: translateX(-25px);
+	}
+	100% {
+		transform: translateX(0px);
+	}
+}
+
+.imgs-wrapper{
+	position: relative;
+	.img-back{
+		position: relative;
+		//width: 485px;
+		//height: 440px;
+		z-index: 1;
+	}
+
+	.img-front{
+		position: absolute;
+		//width: 416px;
+		//height: 341px;
+		//right: 100px;
+		z-index: 2;
+		top: 160px;
+	}
+}
+
+.list-container{
+	text-align: left;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 21px;
+	line-height: 120%;
+	letter-spacing: 0.2px;
+	p{
+		/* IN DETAIL */
+		text-align: left;
+		color: #FFF;
+	}
+	.li-wrapper{
+		display: flex;
+		flex-direction: row;
+	  align-items: center;
+		img{
+			margin-left: 10px;
+			width: 21px;
+			height: 8px;
+		}
+		span{
+			margin-left: 30px;
+			color: #000;
+			font-weight: 100;
+		}
+	}
+}
+
+#sect-4-1{
+	background: url("../images/background-services.png");
+}
+#sect-4-2{
+	.decoration-1{
+		position: relative;
+		bottom: 50px;
+	}
+}
+
+//-----------------Tech Solutions----------------
+
+#tech-s1-left{
+	background: url("../images/tech1.png");
+}
+
+#tech-s1-right-1{
+	background: url("../images/tech2.png");
+}
+
+#tech-s2-right{
+	background: url("../images/tech3.png");
+}
+
+//---------------//Tech Solutions----------------
+
+//-----------Web Design Solutions----------------
+
+#design-s1-left{
+	background: url("../images/design1.png");
+}
+
+#design-s1-right-1{
+	background: url("../images/design2.png");
+}
+
+#design-s2-right{
+	background: url("../images/design3.png");
+}
+
+//---------//Web Design Solutions----------------
+
+//-----------Brand Development Solutions---------
+
+#brand-s1-left{
+	background: url("../images/brand1.png");
+}
+
+#brand-s1-right-1{
+	background: url("../images/brand2.png");
+}
+
+#brand-s2-right{
+	background: url("../images/brand3.png");
+}
+
+//---------//Brand Development Solutions---------
+
+//---------------Inbound Marketing---------------
+
+#inbound-s1-left{
+	background: url("../images/inbound1.png");
+}
+
+#inbound-s1-right-1{
+	background: url("../images/inbound2.png");
+}
+
+#inbound-s2-right{
+	background: url("../images/inbound3.png");
+}
+
+//-------------//Inbound Marketing---------------

@@ -1,0 +1,65 @@
+//-----------Social-media-button-----------------
+#contenedor{
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  height: 400px;
+  position: fixed;
+  right: 40px;
+  div.social_{
+    width: 100%;
+  }
+}
+
+.fab{
+  display: flex;
+  flex-direction: column;
+}
+
+ul.social_ {
+  width: 100%;
+  padding: 0px;
+  height: 150px;
+  list-style-type: none;
+  margin-left: 0px;
+
+  li.social_{
+    width: 100%;
+    cursor: pointer;
+    padding-left: 10px;
+  }
+}
+
+button.social_{
+  cursor: pointer;
+  height: 56px;
+  width: 56px;
+  border: none;
+  border-radius: 50%;
+}
+
+
+.child{
+  transition: all 0.5s ease;
+  opacity: 0;
+  margin-top: 10px;
+  top: -1px;
+  position: relative;
+  transform: scaleY(0.4) scaleX(0.4) translateY(40px) translateX(0px);
+}
+
+.child[data-show=true]{
+  opacity: 1;
+  transform: scaleY(1) scaleX(1) translateY(0px) translateX(0px);
+}
+
+.child[data-show=bottom]{
+  opacity: 1;
+  transform: scaleY(1) scaleX(1) translateY(calc(100%/2)) translateX(0px);
+}
+
+img.social_{
+  cursor: pointer;
+}
+
+//---------//Social-media-button-----------------

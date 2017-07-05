@@ -1,0 +1,38 @@
+/****************************************/
+/*          Secciones de pagina         */
+/****************************************/
+.whole-screen{
+  height: 100vh;
+}
+
+/****************************************/
+/*          logofixed de pagina         */
+/****************************************/
+.wrapper-logo{
+  position: fixed;
+  top: 40px;
+  right: 40px;
+}
+
+#img-1{
+  z-index: 2;
+  transition: opacity 0.5s ease, transform 0.8s ease;
+  opacity: 1;
+  top: -1px;
+  position: relative;
+  transform: scaleY(1) scaleX(1) translateY(0px) translateX(0px);
+}
+
+#img-1[data-state=gone]{
+  opacity: 0;
+  transform: scaleY(1) scaleX(1) translateY(0px) translateX(109px);
+}
+
+#img-2{
+  z-index: 3;
+}
+
+#img-2:hover{
+  opacity: 1;
+  transform: scaleY(1) scaleX(1) translateY(0px) translateX(0px);
+}

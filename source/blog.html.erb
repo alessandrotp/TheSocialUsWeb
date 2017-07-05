@@ -1,0 +1,38 @@
+---
+title: 	Blog - The Social Us
+---
+
+<%= stylesheet_link_tag 'blog' %>
+
+
+<div class="blog-cont">
+	
+	<%= partial "vertical_menu" %>
+
+	<%= image_tag "images/TSULogo.png", :class => "TSU-logo" %>
+	
+	<div class="row expanded text-align-center">
+		<div class="large-2 large-offset-2 columns">
+			<%= image_tag "images/blog1.png", :class => "blog-img" %>
+			<%= image_tag "images/blog2.png", :class => "blog-img" %>
+			<%= image_tag "images/blog3.png", :class => "blog-img" %>
+
+		</div>
+		<div class="large-2 columns">
+			<%= image_tag "images/blog4.png", :class => "blog-img" %>
+			<%= image_tag "images/blog5.png", :class => "blog-img" %>
+			<%= image_tag "images/blog6.png", :class => "blog-img" %>
+		</div>
+		<div class="large-2 columns end">
+			<%= image_tag "images/blog7.png", :class => "blog-img" %>
+			<h1><b>BLOG</b> BY US</h1>
+			<p>Some thoughts from our restless minds</p>
+			<div class="blog-link">
+				<a href="#">VIEW ALL POSTS</a>
+			</div>
+			<%= image_tag "images/blog8.png", :class => "blog-img" %>
+		</div>
+	</div>	
+
+	<%= partial "social_media_button" %>
+</div>

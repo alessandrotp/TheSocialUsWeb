@@ -1,0 +1,147 @@
+@media(min-width: 768px){
+  #first{
+    background: url('../images/work-jimbe/fondo1.png'), #04479E;
+    background-position: center;
+    height: 100vh;
+    widows: 100vw;
+    padding-top: 40vh;
+    padding-left: 60px;
+    .presentation-text{
+      h1{
+        font-size: 6em;
+        font-weight: bolder;
+      }
+      height: 65%;
+    }
+    .presentation-text *, .year > p{
+      text-align: left;
+      color: white;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+  }
+
+  #second{
+    h2, h3{
+      margin-top:10vh;
+      color: #033150;
+      font-weight: bolder;
+    }
+    h2, p {
+      text-align: center;
+    }
+    h3{
+      text-align: left;
+    }
+    .list{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .wrap-li{
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      p{
+        margin-left: 5px;
+      }
+    }
+    padding-bottom: 10vh;
+  }
+
+  #third{
+    background: linear-gradient(180deg, #04479E 0%, #006FFF 100%);
+    #third-one, #third-two, #third-three{
+      padding-top: 10vh;
+      p, h4{
+        color: white;
+      }
+      .portrait{
+        width: 100%;
+        position: relative;
+        top: -50vh;
+      }
+    }
+
+    .wrapper{
+      display: flex;
+      align-items: center;
+
+      img{
+        width: 30%;
+      }
+      h4{
+        margin: 0;
+      }
+    }
+    .wrapper + p {
+      text-align: left;
+    }
+  }
+  .footer{
+    padding: 20px 0px 0px 0px;
+  }
+}
+
+@media(max-width: 767px){
+  #first{
+    background: url('../images/work-jimbe/fondo1.png'), #4b2c6f;
+    background-position: center;
+    height: 100vh;
+    widows: 100vw;
+    padding-top: 40vh;
+    padding-left: 60px;
+    .presentation-text{
+      height: 55%;
+    }
+    .presentation-text *, .year > p{
+      text-align: left;
+      color: white;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+  }
+
+  #second{
+    h2, h3{
+      margin-top:10vh;
+      color: #033150;
+      font-weight: bolder;
+    }
+    h2, h3, p {
+      text-align: left;
+    }
+    .wrap-li{
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      p{
+        margin-left: 5px;
+      }
+    }
+    padding-bottom: 10vh;
+  }
+
+  #third{
+    background: linear-gradient(180deg, #04479E 0%, #006FFF 100%);
+    #third-one, #third-two, #third-three{
+      padding-top: 10vh;
+      p, h4{
+        color: white;
+      }
+    }
+
+    .wrapper{
+      display: flex;
+      align-items: center;
+
+      img{
+        width: 30%;
+      }
+      h4{
+        margin: 0;
+      }
+    }
+    .wrapper + p {
+      text-align: left;
+    }
+  }
+}
